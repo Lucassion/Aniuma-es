@@ -1,0 +1,81 @@
+.wrap{
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90vw;
+}
+
+.box{
+    color:#FFF;
+    background: #ddd;
+    width: 20%;
+    line-height: 100px;
+    text-align: center;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.red{
+    background: rgba(139, 0, 0, 0.5); 
+}
+
+.scalex{
+    transform: scaleX(1);
+    transition: transform 1s ease-in-out;
+}
+
+.box:hover .scalex{
+    transform: scaleX(2);
+}
+
+.scaleY{
+    transform: scale(1);
+    transition: transform 3s linear;
+}
+.box:hover .scaleY{
+    transform: scale(2);
+}
+
+.scaleZ{
+    transform: scale(1);
+    transition: transform 3s linear;
+}
+.box:hover .scaleZ{
+    transform: scale(2);
+}
+.skewX{
+    transform: skewX(10deg);
+    transition: transform 0.5s linear;
+}
+.box:hover .skewX{
+    transform: skewX(20deg);
+}
+.skewY{
+    transform: skewY(10deg);
+    transition: transform 0.5s linear;
+}
+.box:hover .skewY{
+    transform:skewY(20deg) ;
+}
+.translateX{
+    transform: translateX(0em);
+    transition: transform 0.5s ease-in;
+}
+.box:hover .translateX{
+    transform: translateX(2em);
+}
+.translateY{
+    transform: translateY(0em);
+    transition: transform 0.5s ease-in;
+}
+.box:hover .translateY{
+    transform: translateY(2em);
+}
+.translate{
+    transform: translate(0em);
+    transition: transform 0.5s ease-in;
+}
+.box:hover .translate{
+    transform: translate(2em);
+}
